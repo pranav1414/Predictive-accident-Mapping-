@@ -1,4 +1,4 @@
-# Predictive-accident-Mapping-
+# Predictive accident Mapping 
 
 🚦 Predictive Accident Mapping and Visualization System
 This project delivers a comprehensive data-driven solution for analyzing road traffic accidents across three major U.S. cities — New York City, Chicago, and Austin. By leveraging ETL pipelines, data profiling, dimensional modeling, SQL aggregation, and modern business intelligence tools, we provide actionable insights into accident patterns, contributing factors, and public safety trends.
