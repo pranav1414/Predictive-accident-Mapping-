@@ -22,7 +22,7 @@ To develop a cross-city accident analysis and visualization system that enables:
 
 ✅ Delivery of intuitive dashboards using Power BI and Tableau
 
-🧠 Technologies & Tools Used
+🧠 Technologies & Tools Used:
 Category	Technologies Used
 ETL	Talend Open Studio for data extraction, transformation, and loading
 Data Analysis	Python (pandas, ydata_profiling)
@@ -63,14 +63,14 @@ This step guided preprocessing decisions in both Talend and SQL stages.
 3. Dimensional Modeling
 A star schema was created for fast aggregation and drill-down analysis:
 
-Fact Tables:
+# Fact Tables:
 fact_crash: Master crash records with location, date, injuries, and deaths
 
 fact_vehicle: Vehicle involvement per crash
 
 fact_contribution: Primary and secondary crash causes
 
-Dimension Tables:
+# Dimension Tables:
 date_dim, time_dim, location_dim, dim_vehicle, scd_contribution_dim
 
 The schema was modeled in ER Studio and validated for referential integrity, enabling accurate OLAP-style querying and visual filtering.
@@ -103,8 +103,10 @@ Identified patterns in crash causes and behavioral factors
 
 Enabled location-based intervention recommendations via ZIP code analysis
 
-📈 Dashboards & Visualizations
-🟡 Power BI Dashboard
+# 📈 Dashboards & Visualizations
+
+🟡 Power BI Dashboard:
+ 
 Multi-tab layout for each city
 
 Interactive slicers for timeframe, vehicle type, and borough
@@ -113,7 +115,8 @@ KPI cards, stacked bar charts, and ZIP-level maps
 
 Heatmaps for pedestrian fatalities
 
-🔵 Tableau Dashboard
+🔵 Tableau Dashboard:
+
 Comparative views between cities
 
 ZIP code heatmaps for crash hotspots
@@ -122,7 +125,8 @@ Filters by daypart, weekday, vehicle class, and crash cause
 
 Both dashboards were built with clarity, responsiveness, and executive usability in mind.
 
-📍 Key Insights Discovered
+📍 Key Insights Discovered:
+
 Insight	Impact
 🚗 Brooklyn and Queens had the highest accident counts in NYC	Aimed at optimizing traffic enforcement zones
 🕒 Accidents peaked during commute hours and weekends	Informs EMS and law enforcement resource planning
@@ -130,7 +134,7 @@ Insight	Impact
 💥 NYC pedestrian fatalities were disproportionately high	Supports sidewalk and signal redesign
 🚦 "Failure to yield" was the most cited contributing factor	Highlights behavioral re-education need for drivers
 
-📚 Deliverables
+📚 Deliverables :
 NYC Analysis Report.pdf, Chicago Analysis Report.pdf, Austin Analysis Report.pdf
 
 Final SQL Query.pdf — with all analytical queries
